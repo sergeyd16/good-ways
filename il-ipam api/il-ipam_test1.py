@@ -108,7 +108,7 @@ def search_first_free_ip (subnet_id):
 def main():
     #auth = get_auth_token()    
     #print("il-ipam-token is: {}".format(auth['token']))
-    #github test commit
+    #github test
     print("Static il-ipam-token is: {}".format(token))
 
     subnet = search_for_subnet("192.168.187.0/24")
