@@ -1,0 +1,48 @@
+[
+    {
+        "policy": "int_access_host_11_1_chkp",
+        "interfaces": [
+            {
+                "serialNumber": "FDO22482Y85",
+                "ifName": "Ethernet1/8",
+                "nvPairs": {
+                    "SPEED": "Auto",
+                    "ACCESS_VLAN": "180",
+                    "Storm_control": "true",
+                    "BPDUGUARD_ENABLED": "true",
+                    "ADMIN_STATE": "true",
+                    "VPC_ORPHAN_ENABLED": "true",
+                    "CONF": "",
+                    "FABRIC_NAME": "IL_DC_Prod_VXLAN_Fabric",
+                    "DESC": "Tintri_POC_MGT1",
+                    "INTF_NAME": "Ethernet1/8",
+                    "PORTTYPE_FAST_ENABLED": "true",
+                    "MTU": "jumbo"
+                }
+            }
+        ]
+    },
+    {
+        "policy": "int_trunk_host_11_1_chkp",
+        "interfaces": [
+            {
+                "serialNumber": "FDO22482Y85",
+                "ifName": "Ethernet1/35",
+                "nvPairs": {
+                    "SPEED": "Auto",
+                    "Storm_control": "true",
+                    "BPDUGUARD_ENABLED": "no",
+                    "ADMIN_STATE": "true",
+                    "VPC_ORPHAN_ENABLED": "false",
+                    "CONF": "",
+                    "FABRIC_NAME": "IL_LAB_VXLAN_Fabric",
+                    "ALLOWED_VLANS": "302,303,305,400",
+                    "DESC": "to-SW_AG4500-NBX",
+                    "INTF_NAME": "Ethernet1/35",
+                    "PORTTYPE_FAST_ENABLED": "false",
+                    "MTU": "jumbo"
+                }
+            }
+        ]
+    },
+]

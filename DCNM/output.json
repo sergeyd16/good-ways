@@ -1,0 +1,17 @@
+{'services': 
+    {
+    'vxlan': '/rest/topology/switches/vxlan/', 
+    'pmn': '/rest/pmn/', 
+    'settings': '/rest/settings/', 
+    'logout': '/rest/logout', 
+    'logon': '/rest/logon', 
+    'autoConfiguration': '/rest/auto-config/', 
+    'cablePlan': '/rest/cable-plans/', 
+    'POAP': '/rest/poap/', 
+    'dciAutoConfiguration': '/rest/auto-config/dci/paired-device'
+    }, 
+'Dcnm-Version': '11.0(1)', 
+'Dcnm-Mode': 'Default'
+}
+
+[{"id":3,"fabricId":"FABRIC-3","fabricName":"CHECKPOINT_FABRIC","fabricType":"Switch_Fabric","fabricTechnology":"VXLANFabric","provisionMode":"DCNMTopDown","deviceType":"n9k","replicationMode":"Multicast","asn":"65000","siteId":"1","templateName":"Easy_Fabric","nvPairs":{"DNS2_SERVER_IP":"","vrf_extension_template":"Default_VRF_Extension","DHCP_START":"","ENABLE_TRM":"false","LOOPBACK1_IP_RANGE":"10.0.1.0/24","AAA2_SERVER":"","abstract_loopback_interface":"int_fabric_loopback","abstract_ospf":"base_ospf","L3_PARTITION_ID_RANGE":"50000-59000","abstract_isis":"base_isis","abstract_extra_config_spine":"extra_config_spine","temp_vpc_domain_mgmt":"vpc_domain_mgmt","DHCP_START_INTERNAL":"","SUBINTERFACE_RANGE":"2-511","ADVERTISE_PIP_BGP":"true","DHCP_END":"","AAA_SERVER":"","NETWORK_VLAN_RANGE":"2300-2999","NTP2_SERVER_IP":"","VPC_PEER_LINK_VLAN":"3600","default_network":"Default_Network","abstract_feature_spine":"base_feature_spine_upg","abstract_ospf_interface":"ospf_interface","abstract_vlan_interface":"int_fabric_vlan","FABRIC_NAME":"CHECKPOINT_FABRIC","NTP_SERVER_IP":"194.29.36.22","POWER_REDUNDANCY_MODE":"ps-redundant","LOOPBACK0_IP_RANGE":"10.0.0.0/24","abstract_pim_interface":"pim_interface","abstract_extra_config_leaf":"extra_config_leaf","ANYCAST_GW_MAC":"2020.0000.00aa","abstract_dhcp":"base_dhcp","VPC_DELAY_RESTORE":"150","EXTRA_CONF_SPINE":"","NTP_SERVER_VRF":"management","LINK_STATE_ROUTING_TAG":"UNDERLAY","AAA_SECRET":"","REPLICATION_MODE":"Multicast","FF":"Easy_Fabric","DNS_SERVER_IP":"194.29.36.73","FABRIC_TYPE":"Switch_Fabric","LINK_STATE_ROUTING":"is-is","ANYCAST_RP_IP_RANGE":"10.254.254.0/24","abstract_route_map":"route_map","network_extension_template":"Default_Network_Extension","DNS2_SERVER_VRF":"","AAA_VRF":"","abstract_isis_interface":"isis_interface","NTP2_SERVER_VRF":"","abstract_vpc_domain":"base_vpc_domain","abstract_multicast":"base_multicast","ACTIVE_MIGRATION":"false","COPP_POLICY":"strict","DHCP_END_INTERNAL":"","default_vrf":"Default_VRF","SUBNET_TARGET_MASK":"30","abstract_anycast_rp":"anycast_rp","DHCP_ENABLE":"false","FABRIC_MTU":"9216","software_image":"7.0(3)I7(5)","temp_vpc_peer_link":"vpc_peer_link","MGMT_GW":"","MGMT_PREFIX_INTERNAL":"","SITE_ID":"1","temp_anycast_gateway":"anycast_gateway","MGMT_GW_INTERNAL":"","MGMT_PREFIX":"","BGP_AS":"65000","abstract_bgp_rr":"evpn_bgp_rr","ENABLE_NGOAM":"true","AAA2_SECRET":"","VRF_VLAN_RANGE":"2000-2299","VPC_AUTO_RECOVERY_TIME":"360","DNS_SERVER_VRF":"management","abstract_bgp":"base_bgp","AAA_TYPE":"none","SUBNET_RANGE":"10.3.0.0/16","abstract_bgp_neighbor":"evpn_bgp_rr_neighbor","MULTICAST_GROUP_SUBNET":"239.1.1.0/25","FABRIC_INTERFACE_TYPE":"unnumbered","abstract_feature_leaf":"base_feature_leaf_upg","EXTRA_CONF_LEAF":"","L2_SEGMENT_ID_RANGE":"30000-49000"},"vrfTemplate":"Default_VRF","networkTemplate":"Default_Network","vrfExtensionTemplate":"Default_VRF_Extension","networkExtensionTemplate":"Default_Network_Extension","createdOn":1538482380101,"modifiedOn":1538542046145}]

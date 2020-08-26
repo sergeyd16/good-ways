@@ -1,0 +1,110 @@
+[
+    {
+        "fabric": "IL_LAB_VXLAN_Fabric",
+        "networkName": "172_31_11_73_50021",
+        "networkId": 50021,
+        "networkTemplate": "Default_Network_Universal",
+        "networkExtensionTemplate": "Default_Network_Extension_Universal",
+        "networkTemplateConfig": "{\"suppressArp\":\"false\",\"secondaryGW2\":\"\",\"secondaryGW1\":\"\",\"loopbackId\":\"\",\"vlanId\":\"21\",\"gatewayIpAddress\":\"\",\"enableL3OnBorder\":\"true\",\"networkName\":\"172_31_11_73_50021\",\"vlanName\":\"172_31_11_73_50021\",\"enableIR\":\"false\",\"mtu\":\"\",\"rtBothAuto\":\"false\",\"isLayer2Only\":\"false\",\"intfDescription\":\"172_31_11_73_50021\",\"segmentId\":\"50021\",\"mcastGroup\":\"239.1.1.0\",\"gatewayIpV6Address\":\"\",\"dhcpServerAddr2\":\"\",\"trmEnabled\":\"false\",\"dhcpServerAddr1\":\"\",\"tag\":\"12345\",\"nveId\":\"1\",\"vrfDhcp\":\"\",\"vrfName\":\"RND_LAB_VRF_70001\"}",
+        "vrf": "RND_LAB_VRF_70001"
+    },
+    {
+        "fabric": "IL_LAB_VXLAN_Fabric",
+        "networkName": "172_31_11_192_50192",
+        "networkId": 50192,
+        "networkTemplate": "Default_Network_Universal",
+        "networkExtensionTemplate": "Default_Network_Extension_Universal",
+        "networkTemplateConfig": "{\"suppressArp\":\"false\",\"secondaryGW2\":\"\",\"secondaryGW1\":\"\",\"loopbackId\":\"\",\"vlanId\":\"192\",\"gatewayIpAddress\":\"\",\"enableL3OnBorder\":\"true\",\"networkName\":\"172_31_11_192_50192\",\"vlanName\":\"172_31_11_192_50192\",\"enableIR\":\"false\",\"mtu\":\"\",\"rtBothAuto\":\"false\",\"isLayer2Only\":\"false\",\"intfDescription\":\"172_31_11_192_50192\",\"segmentId\":\"50192\",\"mcastGroup\":\"239.1.1.0\",\"gatewayIpV6Address\":\"\",\"dhcpServerAddr2\":\"\",\"trmEnabled\":\"false\",\"dhcpServerAddr1\":\"\",\"tag\":\"12345\",\"nveId\":\"1\",\"vrfDhcp\":\"\",\"vrfName\":\"RND_LAB_VRF_70001\"}",
+        "vrf": "RND_LAB_VRF_70001"
+    },
+    {
+        "fabric": "IL_LAB_VXLAN_Fabric",
+        "networkName": "172_31_11_17_50202",
+        "networkId": 50202,
+        "networkTemplate": "Default_Network_Universal",
+        "networkExtensionTemplate": "Default_Network_Extension_Universal",
+        "networkTemplateConfig": "{\"suppressArp\":\"false\",\"secondaryGW2\":\"\",\"secondaryGW1\":\"\",\"loopbackId\":\"\",\"vlanId\":\"202\",\"gatewayIpAddress\":\"\",\"enableL3OnBorder\":\"true\",\"networkName\":\"172_31_11_17_50202\",\"vlanName\":\"172_31_11_17_50202\",\"enableIR\":\"false\",\"mtu\":\"\",\"rtBothAuto\":\"false\",\"isLayer2Only\":\"false\",\"intfDescription\":\"172_31_11_17_50202\",\"segmentId\":\"50202\",\"mcastGroup\":\"239.1.1.0\",\"gatewayIpV6Address\":\"\",\"dhcpServerAddr2\":\"\",\"trmEnabled\":\"false\",\"dhcpServerAddr1\":\"\",\"tag\":\"12345\",\"nveId\":\"1\",\"vrfDhcp\":\"\",\"vrfName\":\"RND_LAB_VRF_70001\"}",
+        "vrf": "RND_LAB_VRF_70001"
+    },
+    {
+		"fabric": "IL_LAB_VXLAN_Fabric",
+		"networkName": "172_31_11_1_50203",
+		"networkId": 50203,
+		"networkTemplate": "Default_Network_Universal",
+		"networkExtensionTemplate": "Default_Network_Extension_Universal",
+		"networkTemplateConfig": "{\"suppressArp\":\"false\",\"secondaryGW2\":\"\",\"secondaryGW1\":\"\",\"loopbackId\":\"\",\"vlanId\":\"203\",\"gatewayIpAddress\":\"\",\"enableL3OnBorder\":\"true\",\"networkName\":\"172_31_11_1_50203\",\"vlanName\":\"172_31_11_1_50203\",\"enableIR\":\"false\",\"mtu\":\"\",\"rtBothAuto\":\"false\",\"isLayer2Only\":\"false\",\"intfDescription\":\"172_31_11_1_50203\",\"segmentId\":\"50203\",\"mcastGroup\":\"239.1.1.0\",\"gatewayIpV6Address\":\"\",\"dhcpServerAddr2\":\"\",\"trmEnabled\":\"false\",\"dhcpServerAddr1\":\"\",\"tag\":\"12345\",\"nveId\":\"1\",\"vrfDhcp\":\"\",\"vrfName\":\"RND_LAB_VRF_70001\"}",
+		"vrf": "RND_LAB_VRF_70001"
+	},
+	{
+		"fabric": "IL_LAB_VXLAN_Fabric",
+		"networkName": "172_31_11_25_50204",
+		"networkId": 50204,
+		"networkTemplate": "Default_Network_Universal",
+		"networkExtensionTemplate": "Default_Network_Extension_Universal",
+		"networkTemplateConfig": "{\"suppressArp\":\"false\",\"secondaryGW2\":\"\",\"secondaryGW1\":\"\",\"loopbackId\":\"\",\"vlanId\":\"204\",\"gatewayIpAddress\":\"\",\"enableL3OnBorder\":\"true\",\"networkName\":\"172_31_11_25_50204\",\"vlanName\":\"172_31_11_25_50204\",\"enableIR\":\"false\",\"mtu\":\"\",\"rtBothAuto\":\"false\",\"isLayer2Only\":\"false\",\"intfDescription\":\"172_31_11_25_50204\",\"segmentId\":\"50204\",\"mcastGroup\":\"239.1.1.0\",\"gatewayIpV6Address\":\"\",\"dhcpServerAddr2\":\"\",\"trmEnabled\":\"false\",\"dhcpServerAddr1\":\"\",\"tag\":\"12345\",\"nveId\":\"1\",\"vrfDhcp\":\"\",\"vrfName\":\"RND_LAB_VRF_70001\"}",
+		"vrf": "RND_LAB_VRF_70001"
+	},
+	{
+		"fabric": "IL_LAB_VXLAN_Fabric",
+		"networkName": "172_31_11_9_50206",
+		"networkId": 50206,
+		"networkTemplate": "Default_Network_Universal",
+		"networkExtensionTemplate": "Default_Network_Extension_Universal",
+		"networkTemplateConfig": "{\"suppressArp\":\"false\",\"secondaryGW2\":\"\",\"secondaryGW1\":\"\",\"loopbackId\":\"\",\"vlanId\":\"206\",\"gatewayIpAddress\":\"\",\"enableL3OnBorder\":\"true\",\"networkName\":\"172_31_11_9_50206\",\"vlanName\":\"172_31_11_9_50206\",\"enableIR\":\"false\",\"mtu\":\"\",\"rtBothAuto\":\"false\",\"isLayer2Only\":\"false\",\"intfDescription\":\"172_31_11_9_50206\",\"segmentId\":\"50206\",\"mcastGroup\":\"239.1.1.0\",\"gatewayIpV6Address\":\"\",\"dhcpServerAddr2\":\"\",\"trmEnabled\":\"false\",\"dhcpServerAddr1\":\"\",\"tag\":\"12345\",\"nveId\":\"1\",\"vrfDhcp\":\"\",\"vrfName\":\"RND_LAB_VRF_70001\"}",
+		"vrf": "RND_LAB_VRF_70001"
+    },
+    {
+		"fabric": "IL_LAB_VXLAN_Fabric",
+		"networkName": "172_31_11_41_50207",
+		"networkId": 50207,
+		"networkTemplate": "Default_Network_Universal",
+		"networkExtensionTemplate": "Default_Network_Extension_Universal",
+		"networkTemplateConfig": "{\"suppressArp\":\"false\",\"secondaryGW2\":\"\",\"secondaryGW1\":\"\",\"loopbackId\":\"\",\"vlanId\":\"207\",\"gatewayIpAddress\":\"\",\"enableL3OnBorder\":\"true\",\"networkName\":\"172_31_11_41_50207\",\"vlanName\":\"172_31_11_41_50207\",\"enableIR\":\"false\",\"mtu\":\"\",\"rtBothAuto\":\"false\",\"isLayer2Only\":\"false\",\"intfDescription\":\"172_31_11_41_50207\",\"segmentId\":\"50207\",\"mcastGroup\":\"239.1.1.0\",\"gatewayIpV6Address\":\"\",\"dhcpServerAddr2\":\"\",\"trmEnabled\":\"false\",\"dhcpServerAddr1\":\"\",\"tag\":\"12345\",\"nveId\":\"1\",\"vrfDhcp\":\"\",\"vrfName\":\"RND_LAB_VRF_70001\"}",
+		"vrf": "RND_LAB_VRF_70001"
+    },
+    {
+		"fabric": "IL_LAB_VXLAN_Fabric",
+		"networkName": "172_31_11_129_50302",
+		"networkId": 50302,
+		"networkTemplate": "Default_Network_Universal",
+		"networkExtensionTemplate": "Default_Network_Extension_Universal",
+		"networkTemplateConfig": "{\"suppressArp\":\"false\",\"secondaryGW2\":\"\",\"secondaryGW1\":\"\",\"loopbackId\":\"\",\"vlanId\":\"302\",\"gatewayIpAddress\":\"\",\"enableL3OnBorder\":\"true\",\"networkName\":\"172_31_11_129_50302\",\"vlanName\":\"172_31_11_129_50302\",\"enableIR\":\"false\",\"mtu\":\"\",\"rtBothAuto\":\"false\",\"isLayer2Only\":\"false\",\"intfDescription\":\"172_31_11_129_50302\",\"segmentId\":\"50302\",\"mcastGroup\":\"239.1.1.0\",\"gatewayIpV6Address\":\"\",\"dhcpServerAddr2\":\"\",\"trmEnabled\":\"false\",\"dhcpServerAddr1\":\"\",\"tag\":\"12345\",\"nveId\":\"1\",\"vrfDhcp\":\"\",\"vrfName\":\"RND_LAB_VRF_70001\"}",
+		"vrf": "RND_LAB_VRF_70001"
+    },
+    {
+		"fabric": "IL_LAB_VXLAN_Fabric",
+		"networkName": "172_31_11_153_50303",
+		"networkId": 50303,
+		"networkTemplate": "Default_Network_Universal",
+		"networkExtensionTemplate": "Default_Network_Extension_Universal",
+		"networkTemplateConfig": "{\"suppressArp\":\"false\",\"secondaryGW2\":\"\",\"secondaryGW1\":\"\",\"loopbackId\":\"\",\"vlanId\":\"303\",\"gatewayIpAddress\":\"\",\"enableL3OnBorder\":\"true\",\"networkName\":\"172_31_11_153_50303\",\"vlanName\":\"172_31_11_153_50303\",\"enableIR\":\"false\",\"mtu\":\"\",\"rtBothAuto\":\"false\",\"isLayer2Only\":\"false\",\"intfDescription\":\"172_31_11_153_50303\",\"segmentId\":\"50303\",\"mcastGroup\":\"239.1.1.0\",\"gatewayIpV6Address\":\"\",\"dhcpServerAddr2\":\"\",\"trmEnabled\":\"false\",\"dhcpServerAddr1\":\"\",\"tag\":\"12345\",\"nveId\":\"1\",\"vrfDhcp\":\"\",\"vrfName\":\"RND_LAB_VRF_70001\"}",
+		"vrf": "RND_LAB_VRF_70001"
+    },
+    {
+		"fabric": "IL_LAB_VXLAN_Fabric",
+		"networkName": "172_31_11_169_50304",
+		"networkId": 50304,
+		"networkTemplate": "Default_Network_Universal",
+		"networkExtensionTemplate": "Default_Network_Extension_Universal",
+		"networkTemplateConfig": "{\"suppressArp\":\"false\",\"secondaryGW2\":\"\",\"secondaryGW1\":\"\",\"loopbackId\":\"\",\"vlanId\":\"304\",\"gatewayIpAddress\":\"\",\"enableL3OnBorder\":\"true\",\"networkName\":\"172_31_11_169_50304\",\"vlanName\":\"172_31_11_169_50304\",\"enableIR\":\"false\",\"mtu\":\"\",\"rtBothAuto\":\"false\",\"isLayer2Only\":\"false\",\"intfDescription\":\"172_31_11_169_50304\",\"segmentId\":\"50304\",\"mcastGroup\":\"239.1.1.0\",\"gatewayIpV6Address\":\"\",\"dhcpServerAddr2\":\"\",\"trmEnabled\":\"false\",\"dhcpServerAddr1\":\"\",\"tag\":\"12345\",\"nveId\":\"1\",\"vrfDhcp\":\"\",\"vrfName\":\"RND_LAB_VRF_70001\"}",
+		"vrf": "RND_LAB_VRF_70001"
+    },
+    {
+		"fabric": "IL_LAB_VXLAN_Fabric",
+		"networkName": "172_31_11_185_50305",
+		"networkId": 50305,
+		"networkTemplate": "Default_Network_Universal",
+		"networkExtensionTemplate": "Default_Network_Extension_Universal",
+		"networkTemplateConfig": "{\"suppressArp\":\"false\",\"secondaryGW2\":\"\",\"secondaryGW1\":\"\",\"loopbackId\":\"\",\"vlanId\":\"305\",\"gatewayIpAddress\":\"\",\"enableL3OnBorder\":\"true\",\"networkName\":\"172_31_11_185_50305\",\"vlanName\":\"172_31_11_185_50305\",\"enableIR\":\"false\",\"mtu\":\"\",\"rtBothAuto\":\"false\",\"isLayer2Only\":\"false\",\"intfDescription\":\"172_31_11_185_50305\",\"segmentId\":\"50305\",\"mcastGroup\":\"239.1.1.0\",\"gatewayIpV6Address\":\"\",\"dhcpServerAddr2\":\"\",\"trmEnabled\":\"false\",\"dhcpServerAddr1\":\"\",\"tag\":\"12345\",\"nveId\":\"1\",\"vrfDhcp\":\"\",\"vrfName\":\"RND_LAB_VRF_70001\"}",
+		"vrf": "RND_LAB_VRF_70001"
+    },
+    {
+		"fabric": "IL_LAB_VXLAN_Fabric",
+		"networkName": "172_23_254_4_50999",
+		"networkId": 50999,
+		"networkTemplate": "Default_Network_Universal",
+		"networkExtensionTemplate": "Default_Network_Extension_Universal",
+		"networkTemplateConfig": "{\"suppressArp\":\"false\",\"secondaryGW2\":\"\",\"secondaryGW1\":\"\",\"loopbackId\":\"\",\"vlanId\":\"999\",\"gatewayIpAddress\":\"\",\"enableL3OnBorder\":\"true\",\"networkName\":\"172_23_254_4_50999\",\"vlanName\":\"172_23_254_4_50999\",\"enableIR\":\"false\",\"mtu\":\"\",\"rtBothAuto\":\"false\",\"isLayer2Only\":\"false\",\"intfDescription\":\"172_23_254_4_50999\",\"segmentId\":\"50999\",\"mcastGroup\":\"239.1.1.0\",\"gatewayIpV6Address\":\"\",\"dhcpServerAddr2\":\"\",\"trmEnabled\":\"false\",\"dhcpServerAddr1\":\"\",\"tag\":\"12345\",\"nveId\":\"1\",\"vrfDhcp\":\"\",\"vrfName\":\"RND_LAB_VRF_70001\"}",
+		"vrf": "RND_LAB_VRF_70001"
+	}
+]
