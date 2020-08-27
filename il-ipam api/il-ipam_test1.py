@@ -94,6 +94,25 @@ def get_url(url):
 
     return response.json()
 
+def put_url(url, data):
+    """ Function to send PUT request to DCNM
+    """  
+    url = create_url(path=url)
+    print(url)
+    headers = {
+    'token': token,
+    'content-type': "application/json",
+    'Accept': "application/json",
+    'cache-control': "no-cache"
+    }
+    try:
+        response = requests.put(url, data=json.dumps(data), headers=headers, verify=False)
+    except requests.exceptions.RequestException as cerror:
+        print("Error processing request", cerror)
+        sys.exit(1)
+    
+    return response.json()
+
 def search_for_subnet (CIDR):
     response = get_url("/subnets/search/{}/".format(CIDR))
     return response
@@ -111,11 +130,21 @@ def main():
     #github test
     print("Static il-ipam-token is: {}".format(token))
 
-    subnet = search_for_subnet("192.168.187.0/24")
+    subnet_user_input = input("CIDR to work with: ")
+    subnet = search_for_subnet(subnet_user_input)
     subnet_id = subnet['data'][0]['id']
 
     free_ip = search_first_free_ip(subnet_id)
     print(free_ip['data'])
+
+    ip_input = input("IP to check status: ")
+    id_of_ip_list = get_url("/addresses/search/{ip}/".format(ip=ip_input))
+    id_of_ip = id_of_ip_list['data'][0]['id']
+
+    #Check address status
+    #ip_address_id = get_url("/addresses/{id}/")
+    ip_status = get_url("/addresses/{id}/ping/".format(id=id_of_ip))
+    print("IP {} {}".format(ip_input, ip_status['data']["message"]))
 
     
 
